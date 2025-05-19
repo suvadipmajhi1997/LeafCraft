@@ -1,0 +1,11 @@
+[
+    {
+        "id":1,
+        "title":"how to write a blog post for your readers",
+        "image":"/images/blog-1.jpg",
+        "categories":["business", "marketing","social media"],
+        "author":"jhon doe",
+        "date":"january 21, 2025",
+        "pera": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis molestiae voluptatum a deleniti ea ducimus consequuntur veritatis unde animi quos? Id eius vitae nam at magnam itaque dolorem, qui officia."
+    }
+]

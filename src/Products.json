@@ -1,0 +1,131 @@
+[
+    {
+        "id":1,
+        "image":"/images/1.jpg",
+        "secondImage":"/images/1-1.jpg",
+        "name":"ExoticRarePlants Small Jute Modern Plant",
+        "offerPrice":60,
+        "price":65
+    },
+    {
+        "id":2,
+        "image":"/images/2.jpg",
+        "secondImage":"/images/2-2.jpg",
+        "name":"Deep Jungle Wukoku Tall Fake Plants",
+        "offerPrice":60,
+        "price":65
+    },
+    {
+        "id":3,
+        "image":"/images/3-3.jpg",
+        "secondImage":"/images/3.jpg",
+        "name":"Alobtt Plants Mini Potted Artificial Plants",
+        "offerPrice":60,
+        "price":65
+    },
+    {
+        "id":4,
+        "image":"/images/4.jpg",
+        "secondImage":"/images/4-4.jpg",
+        "name":"Bee Green Aloe Squarrosa Vera Clumb",
+        "offerPrice":60,
+        "price":65
+    },
+    {
+        "id":5,
+        "image":"/images/5.jpg",
+        "secondImage":"/images/5-5.jpg",
+        "name":"Euphorbia Natural Cactus Potted Plant",
+        "offerPrice":60,
+        "price":65
+    },
+    {
+        "id":6,
+        "image":"/images/6.jpg",
+        "secondImage":"/images/6-6.jpg",
+        "name":"Alas Large Indoor Artificial Plants Pot",
+        "offerPrice":60,
+        "price":65
+    },
+    {
+        "id":7,
+        "image":"/images/7.jpg",
+        "secondImage":"/images/7-7.jpg",
+        "name":"Alocasia Natural Polly Plant In White Pot",
+        "offerPrice":60,
+        "price":65
+    },
+    {
+        "id":8,
+        "image":"/images/8.jpg",
+        "secondImage":"/images/8-8.jpg",
+        "name":"Simple Natural Aglaonema Outdoor Plant",
+        "offerPrice": 60,
+        "price": 65
+    },
+    {
+        "id":9,
+        "image":"/images/1.jpg",
+        "secondImage":"/images/1-1.jpg",
+        "name":"ExoticRarePlants Small Jute Modern Plant",
+        "offerPrice":60,
+        "price":65
+    },
+    {
+        "id":10,
+        "image":"/images/2.jpg",
+        "secondImage":"/images/2-2.jpg",
+        "name":"Deep Jungle Wukoku Tall Fake Plants",
+        "offerPrice":60,
+        "price":65
+    },
+    {
+        "id":11,
+        "image":"/images/3-3.jpg",
+        "secondImage":"/images/3.jpg",
+        "name":"Alobtt Plants Mini Potted Artificial Plants",
+        "offerPrice":60,
+        "price":65
+    },
+    {
+        "id":12,
+        "image":"/images/4.jpg",
+        "secondImage":"/images/4-4.jpg",
+        "name":"Bee Green Aloe Squarrosa Vera Clumb",
+        "offerPrice":60,
+        "price":65
+    },
+    {
+        "id":13,
+        "image":"/images/5.jpg",
+        "secondImage":"/images/5-5.jpg",
+        "name":"Euphorbia Natural Cactus Potted Plant",
+        "offerPrice":60,
+        "price":65
+    },
+    {
+        "id":14,
+        "image":"/images/6.jpg",
+        "secondImage":"/images/6-6.jpg",
+        "name":"Alas Large Indoor Artificial Plants Pot",
+        "offerPrice":60,
+        "price":65
+    },
+    {
+        "id":15,
+        "image":"/images/7.jpg",
+        "secondImage":"/images/7-7.jpg",
+        "name":"Alocasia Natural Polly Plant In White Pot",
+        "offerPrice":60,
+        "price":65
+    },
+    {
+        "id":16,
+        "image":"/images/8.jpg",
+        "secondImage":"/images/8-8.jpg",
+        "name":"Simple Natural Aglaonema Outdoor Plant",
+        "offerPrice": 60,
+        "price": 65
+    }
+    
+]
