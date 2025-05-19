@@ -278,54 +278,6 @@ body{
     100%{transform: translateY(0px); opacity: 1;}
 }
 
-
-/* Responsive media queries */
-@media (max-width: 768px) {
-  .hero {
-    height: 70vh;
-  }
-
-  .hero-content h1 {
-    font-size: 1.75rem;
-  }
-
-  .hero-content h3 {
-    font-size: 1rem;
-  }
-
-  .hero-content p {
-    font-size: 0.9rem;
-  }
-
-  .swiper-btn {
-    padding: 8px;
-  }
-}
-
-@media (max-width: 576px) {
-    .hero{
-        height: 90vh;
-    }
-  .hero-content {
-    width: 90%;
-    padding: 0.5rem;
-  }
-
-  .hero-content h1 {
-    font-size: 1.5rem;
-  }
-
-  .hero-content h3,
-  .hero-content p {
-    font-size: 0.85rem;
-  }
-
-  .hero-btn {
-    padding: 0.5rem 1rem;
-    font-size: 0.9rem;
-  }
-}
-
 /* service section */
 
 .section-title h2{
@@ -823,4 +775,89 @@ body{
 
 .payment-img{
     text-align: end;
+}
+
+
+
+/* about page */
+
+.page-section{
+    background-color: #f5f5f5;
+    padding: 20Px 0;
+    margin-top: 89px !important;
+}
+
+.page-section h2{
+    font-family: var(--lora-font);
+    font-weight: 600;
+}
+
+.page-section a{
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.opportunities{
+    background-color: #f2f2f2;
+}
+
+.opportunities-title h2{
+    font-family: var(--lora-font);
+    line-height: 2.5rem;
+}
+
+.accordion_header button{
+    font-family: var(--roboto-font);
+    font-size: 1.4rem;
+}
+
+.accordion_item{
+    background-color: transparent;
+    border: 0;
+}
+
+.about_card{
+    padding: 30px 50px 30px 50px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.about_card h5{
+    font-family: var(--lora-font);
+    font-size: 1.3rem;
+}
+
+.about_card p{
+    font-size: 0.9rem;
+}
+
+.stats_section{
+    background-image: url(assets/about-parallax.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about_col h2{
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.about_col p{
+    font-size: 1.1rem;
+}
+
+.contact_btn{
+    width: auto;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-decoration: none;
+    height: 50px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: var(--transition-slow);
+}
+
+.contact_btn:hover{
+    background-color: var(--black-color);
 }
