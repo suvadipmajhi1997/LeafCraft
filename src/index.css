@@ -456,6 +456,7 @@ body{
 
 .product-card:hover .add-cart-btn{
     opacity: 1;
+    margin-bottom: 20px;
 }
 
 .product-info h5{
@@ -860,4 +861,178 @@ body{
 
 .contact_btn:hover{
     background-color: var(--black-color);
+}
+
+.about_contact{
+    font-family: var(--playball-font);
+    color: var(--primary-color);
+}
+
+/* blog page */
+
+.blog-content{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-family: var(--lora-font);
+    text-transform: uppercase;
+}
+
+.blog-content h1:hover{
+    color: var(--primary-color);
+}
+
+.blog-content h5{
+    color: var(--light-text);
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.blog-content p{
+    font-weight: 300;
+    font-size: 15px;
+    color: var(--light-text);
+}
+
+.blog-content h6{
+    color: #a0a0a0;
+    font-size: 13px;
+}
+
+.blog-content h6 span{
+    transition: var(--transition-regular);
+    font-weight: 600;
+}
+
+.blog-content h6 span:hover{
+    color: var(--black-color);
+}
+
+.blog-side-box h2{
+    font-family: var(--lora-font);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.blog-post-img{
+    width: 100%;
+    overflow: hidden;
+}
+
+.blog-post-text{
+    padding: 8px;
+}
+
+.blog-post-text p{
+    margin: 0 !important;
+    font-weight: 400;
+    line-height: 1.4rem;
+    color: var(--light-text) !important;
+}
+
+.blog-post-text p:hover{
+    color: var(--primary-color);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.blog-post-link a{
+    font-weight: 400;
+    line-height: 1.4rem;
+    color: var(--light-text) !important;
+}
+
+.blog-post-link a:hover{
+    color: var(--primary-color) !important;
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+
+.blog-post-text span{
+    color: var(--light-text);
+    padding: 5px 8px;
+    border-radius: 10px;
+    border: 1px solid rgba(131, 131, 131, 0.5);
+}
+
+.blog-post-text span:hover{
+    color: var(--primary-color) !important;
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+
+.map iframe{
+    width: 98%;
+}
+
+.contact-form h4{
+    font-family: var(--lora-font);
+    font-size: 1.7rem;
+    font-weight: 500 !important;
+}
+
+.contact-form label{
+    color: var(--light-text);
+}
+
+.contact-info{
+    background-color: #f5f5f5;
+}
+
+.contact-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-icons i{
+    border: 1px solid var(--primary-color);
+    width: 45px !important;
+    height: 45px !important;
+    border-radius: 100%;
+    padding: 10px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-icons p{
+    margin: 0;
+}
+
+
+/* cart page */
+
+.product-name{
+    font-family: var(--lora-font);
+    font-size: 1.2rem;
+}
+
+.checkout-btn{
+    width: 250px !important;
+}
+
+.remove-cart-btn{
+    font-size: 1.5rem;
+    background-color: white;
+    border: none;
+    width: 80px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remove-cart-btn i{
+    color: red;
+}
+.quantity-input input{
+    width: 80px !important;
+    padding-left: 10%;
+}
+
+.small-screen-icon{
+    display: none;
 }

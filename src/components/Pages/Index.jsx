@@ -1,6 +1,10 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectFade, Navigation, Autoplay } from "swiper/modules";
+import {WishlistContext} from './../WishlistContextProvider'
+import { CartContext } from "./../CartContextProvider";
+import { toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css'
 
 // import Swiper and modules styles
 import "swiper/css";
@@ -38,8 +42,22 @@ import brand4 from "./../../assets/brand-4.png";
 import brand5 from "./../../assets/brand-5.png";
 import brand6 from "./../../assets/brand-3.png";
 
-
+// product details
 const Index = () => {
+
+  const {addToWishlist} = useContext(WishlistContext);
+  const {addToCart} = useContext(CartContext);
+
+  const handelAddToCart =(product)=>{
+    const productWithNumber = {
+      ...product,
+      price: parseFloat(product.price),
+      offerPrice:parseFloat(product.offerPrice),
+    };
+    addToCart(productWithNumber);
+  };
+
+
   const [selectedProduct, setSelectProduct] = useState(null);
 
   const handelProductClick = (product) => {
@@ -50,6 +68,7 @@ const Index = () => {
     modal.show();
   };
 
+  // count quantity
   const [quantity, setQuantity] = useState(1);
 
   const handelDecrease = () => {
@@ -275,9 +294,32 @@ const Index = () => {
                       alt={product.name}
                     />
                     <div className="product-option position-absolute">
-                      <i className="bi bi-heart"></i>
+                      <i className="bi bi-heart"
+                      role="button"
+                      onClick={()=>{
+                        addToWishlist({
+                          id: product.id,
+                          name: product.name,
+                          price: product.price,
+                          image: product.image,
+                          inStock: true
+                        });
+                        toast.success(`Added to Wishlist`)
+                      }}
+                      ></i>
                     </div>
-                    <button className="btn add-cart-btn position-absolute">
+                    <button className="btn add-cart-btn position-absolute"
+                     onClick={()=>{
+                        addToCart({
+                          id: product.id,
+                          name: product.name,
+                          price: product.price,
+                          image: product.image,
+                          quantity:1,
+                        });
+                        toast.success(`Added to Cart Successfully`)
+                      }}
+                    >
                       ADD TO CART
                     </button>
                   </div>
@@ -389,7 +431,18 @@ const Index = () => {
                           +
                         </span>
                       </div>
-                      <button className="btn btn-sucess d-flex align-items-center gap-2 custom-z">
+                      <button className="btn btn-sucess d-flex align-items-center gap-2 custom-z"
+                      onClick={()=>{
+                        addToCart({
+                          id: selectedProduct.id,
+                          name: selectedProduct.name,
+                          price: selectedProduct.price,
+                          image: selectedProduct.image,
+                          quantity:1,
+                        });
+                        toast.success(`Added to Cart Successfully`)
+                      }}
+                      >
                         <i className="bi bi-basket"></i>Add to Cart
                       </button>
                     </div>
@@ -513,9 +566,32 @@ const Index = () => {
                       alt={product.name}
                     />
                     <div className="product-option position-absolute">
-                      <i className="bi bi-heart"></i>
+                      <i className="bi bi-heart"
+                      role="button"
+                      onClick={()=>{
+                        addToWishlist({
+                          id: product.id,
+                          name: product.name,
+                          price: product.price,
+                          image: product.image,
+                          inStock: true
+                        });
+                        toast.success(`Added to Wishlist`)
+                      }}
+                      ></i>
                     </div>
-                    <button className="btn add-cart-btn position-absolute">
+                    <button className="btn add-cart-btn position-absolute"
+                    onClick={()=>{
+                        addToCart({
+                          id: product.id,
+                          name: product.name,
+                          price: product.price,
+                          image: product.image,
+                          quantity:1,
+                        });
+                        toast.success(`Added to Cart Successfully`)
+                      }}
+                    >
                       ADD TO CART
                     </button>
                   </div>
@@ -635,9 +711,32 @@ const Index = () => {
                       alt={product.name}
                     />
                     <div className="product-option position-absolute">
-                      <i className="bi bi-heart"></i>
+                      <i className="bi bi-heart"
+                      role="button"
+                      onClick={()=>{
+                        addToWishlist({
+                          id: product.id,
+                          name: product.name,
+                          price: product.price,
+                          image: product.image,
+                          inStock: true
+                        });
+                        toast.success(`Added to Wishlist`)
+                      }}
+                      ></i>
                     </div>
-                    <button className="btn add-cart-btn position-absolute">
+                    <button className="btn add-cart-btn position-absolute"
+                    onClick={()=>{
+                        addToCart({
+                          id: product.id,
+                          name: product.name,
+                          price: product.price,
+                          image: product.image,
+                          quantity:1,
+                        });
+                        toast.success(`Added to Cart Successfully`)
+                      }}
+                    >
                       ADD TO CART
                     </button>
                   </div>

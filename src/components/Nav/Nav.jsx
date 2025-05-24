@@ -1,9 +1,21 @@
-import React from "react";
+import React, {useContext} from "react";
 import { Link } from "react-router";
+import {WishlistContext} from './../WishlistContextProvider'
+import { CartContext } from "../CartContextProvider";
+import { toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css'
+import products from "./../../Products.json";
 
 
 
 function Nav(){
+
+  const {wishlistItem} = useContext(WishlistContext);
+  const wishlistCount = wishlistItem.length;
+  const {cartItem} = useContext(CartContext);
+  const cartCount = cartItem.length;
+
+
     return (
       <>
         {/* navbar */}
@@ -25,18 +37,18 @@ function Nav(){
                 <a href="#">
                   <i className="bi bi-person"></i>
                 </a>
-                <a href="#" className="position-relative">
+                <Link to='/wishlist' className="position-relative">
                   <i className="bi bi-heart"></i>
                   <span className="wishlist-count position-absolute top-0 start-100 translate-middle badge rounded-pill">
-                    0
+                    {wishlistCount}
                   </span>
-                </a>
-                <a href="#" className="position-relative">
+                </Link>
+                <Link to='/cart' className="position-relative">
                   <i className="bi bi-bag"></i>
                   <span className="cart-count position-absolute top-0 start-100 translate-middle badge rounded-pill p-2">
-                    0
+                    {cartCount}
                   </span>
-                </a>
+                </Link>
               </div>
 
               {/* Hamburger Menu */}
@@ -56,7 +68,7 @@ function Nav(){
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ms-auto d-flex align-items-lg-center gap-lg-3">
                   <li className="nav-item">
-                    <Link className="nav-link active" to="/">
+                    <Link className="nav-link" to="/">
                       Home
                     </Link>
                   </li>
@@ -98,18 +110,18 @@ function Nav(){
                       >
                         <i className="bi bi-person"></i>
                       </a>
-                      <a href="#" className="position-relative">
+                      <Link to='/wishlist'className="position-relative">
                         <i className="bi bi-heart"></i>
                         <span className="wishlist-count position-absolute top-0 start-100 translate-middle badge rounded-pill p-2">
-                          0
+                          {wishlistCount}
                         </span>
-                      </a>
-                      <a href="#" className="position-relative">
+                      </Link>
+                      <Link to='/cart' className="position-relative">
                         <i className="bi bi-bag"></i>
                         <span className="cart-count position-absolute top-0 start-100 translate-middle badge rounded-pill p-2">
-                          0
+                          {cartCount}
                         </span>
-                      </a>
+                      </Link>
                     </div>
                   </li>
                 </ul>

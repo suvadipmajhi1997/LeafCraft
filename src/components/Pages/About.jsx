@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router';
 
 import about_banner1 from "./../../assets/about-banner-01.jpg";
 import about_banner2 from "./../../assets/about-banner-02.jpg";
@@ -6,7 +7,7 @@ import about_banner3 from "./../../assets/about-banner-03.jpg";
 import about_banner4 from "./../../assets/about-banner-04.jpg";
 import about_banner5 from "./../../assets/about-banner-05.png";
 
-import { Link } from 'react-router';
+
 
 function About() {
   return (
@@ -228,7 +229,7 @@ function About() {
       </div>
 
       <div className="container text-center my-5 py-5">
-        <p className="text-muted mb-2">Contact us</p>
+        <h3 className="about_contact mb-2">Contact us</h3>
         <h2 className="fw-bold text-uppercase mb-4">About Us Info</h2>
         <p className="text-muted mx-auto mb-5" style={{ maxWidth: "600px" }}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
