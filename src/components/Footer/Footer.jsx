@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container">
         <div className="row gy-4">
           {/* Contact Info */}
-          <div className="col-12 col-lg-3 text-center text-lg-start">
+          <div className="col-12 col-lg-3 text-center text-lg-start text-sm-center">
             <h5 className="fw-bold">Contact Us</h5>
             <p>
               <i className="ri-map-pin-2-fill me-2"></i>123 Main Street,

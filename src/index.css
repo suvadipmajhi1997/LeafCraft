@@ -1205,7 +1205,7 @@ body{
     }
 
     .wl-name{
-    font-size: 100px;
+    font-size: 10px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -1238,5 +1238,8 @@ body{
     .blog-swiper,
     .brand-swiper{
         padding: 20px !important;
+    }
+    .wl-name{
+        font-size: 13px;
     }
 }
