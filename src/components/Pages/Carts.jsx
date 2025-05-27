@@ -88,7 +88,7 @@ function Carts() {
                     <td className="text-end text-success cart-subtotal">${total.toFixed(2)}</td>
                   </tr>
                 </table>
-                <Link to='' className='btn checkout-btn d-inline-block mt-3'>
+                <Link to='/checkout' className='btn checkout-btn d-inline-block mt-3'>
                 <i className="ri-bank-card-line me-2"></i>Procced To Checkout
                 </Link>
               </div>

@@ -80,7 +80,7 @@ const Footer = () => {
 
         {/* Footer Bottom Row */}
         <div className="row mt-5 pt-3 footer-bottom align-items-center text-center text-lg-start">
-          <div className="col-12 col-lg-6 mb-3 mb-lg-0">
+          <div className="col-12 col-lg-6 mb-3 mb-lg-0 copyright-text">
             <p className="mb-0">
               © copyright 2025. All rights reserved By{" "}
               <a href="#" className="text-white">

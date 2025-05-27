@@ -11,6 +11,7 @@ import Footer from './components/Footer/Footer'
 import Carts from './components/Pages/Carts'
 import {ToastContainer} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+import Checkout from './components/Pages/Checkout'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/wishlist' element={<Wishlist/>}/>
       <Route path='/cart' element={<Carts/>}/>
+      <Route path='/checkout' element={<Checkout/>}/>
      </Routes>
      <Footer/>
     </>

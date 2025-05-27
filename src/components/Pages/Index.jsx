@@ -146,7 +146,7 @@ const Index = () => {
       </div>
 
       {/* services */}
-<div className="services py-5 mt-5 mt-sm-5">
+    <div className="services py-5 mt-5 mt-sm-5">
   <div className="container">
     <div className="row">
       <div className="section-title col-12 text-center mb-4">
@@ -209,7 +209,7 @@ const Index = () => {
       </div>
     </div>
   </div>
-</div>
+    </div>
 
 
       {/* banners */}

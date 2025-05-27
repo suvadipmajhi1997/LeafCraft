@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, {useContext, useState} from "react";
 import { Link } from "react-router";
 import {WishlistContext} from './../WishlistContextProvider'
 import { CartContext } from "../CartContextProvider";
@@ -15,7 +15,7 @@ function Nav(){
   const {cartItem} = useContext(CartContext);
   const cartCount = cartItem.length;
 
-
+ 
     return (
       <>
         {/* navbar */}
@@ -31,6 +31,7 @@ function Nav(){
 
               {/* Nav Icons for small screens only */}
               <div className="nav-icons d-flex d-lg-none justify-content-center align-items-center gap-3">
+                   
                 <a href="#">
                   <i className="bi bi-search"></i>
                 </a>
@@ -240,7 +241,6 @@ function Nav(){
                       type="text"
                       className="form-control border shadow-sm"
                       placeholder="Search for products..."
-                      required
                     />
                   </div>
                 </form>
@@ -248,6 +248,8 @@ function Nav(){
             </div>
           </div>
         </div>
+
+
       </>
     );
 }
