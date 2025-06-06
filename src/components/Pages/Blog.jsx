@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router';
-import Blogs from './../../Blogs.json'
+import blogs from './../../Blogs.json'
 
 import blog1 from "./../../assets/blog-1.jpeg"
 import blog2 from "./../../assets/blog-2.jpeg"
@@ -22,7 +22,7 @@ function Blog() {
         <div className="row">
           <div className="col-lg-9 blog-wrapper">
             <div className="row">
-              {Blogs.map((blog)=>(
+              {blogs.map((blog)=>(
                 <div className="col-lg-6" key={blog.id}>
                   <div className="blog-card overflow-hidden mb-4">
                     <div className="blog-img overflow-hidden rounded">
