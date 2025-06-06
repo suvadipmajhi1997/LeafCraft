@@ -2,7 +2,7 @@
     {
         "id":1,
         "title":"how to write a blog post for your readers",
-        "image":"/src/assets/blog-1.jpeg",
+        "image":"/images/blog-1.jpeg",
         "categories":["business", "marketing","social media"],
         "author":"jhon doe",
         "date":"january 21, 2025",
@@ -11,7 +11,7 @@
     {
         "id":2,
         "title":"how to write a blog post for your readers",
-        "image":"/src/assets/blog-2.jpeg",
+        "image":"/images/blog-2.jpeg",
         "categories":["business", "marketing","social media"],
         "author":"jhon doe",
         "date":"january 21, 2025",
@@ -20,7 +20,7 @@
     {
         "id":3,
         "title":"how to write a blog post for your readers",
-        "image":"/src/assets/blog-3.jpeg",
+        "image":"/images/blog-3.jpeg",
         "categories":["business", "marketing","social media"],
         "author":"jhon doe",
         "date":"january 21, 2025",
@@ -29,7 +29,7 @@
     {
         "id":4,
         "title":"how to write a blog post for your readers",
-        "image":"/src/assets/blog-4.jpeg",
+        "image":"/images/blog-4.jpeg",
         "categories":["business", "marketing","social media"],
         "author":"jhon doe",
         "date":"january 21, 2025",
@@ -38,7 +38,7 @@
     {
         "id":5,
         "title":"how to write a blog post for your readers",
-        "image":"/src/assets/blog-5.jpeg",
+        "image":"/images/blog-5.jpeg",
         "categories":["business", "marketing","social media"],
         "author":"jhon doe",
         "date":"january 21, 2025",
@@ -47,7 +47,7 @@
     {
         "id":6,
         "title":"how to write a blog post for your readers",
-        "image":"/src/assets/blog-2.jpeg",
+        "image":"/images/blog-2.jpeg",
         "categories":["business", "marketing","social media"],
         "author":"jhon doe",
         "date":"january 21, 2025",
